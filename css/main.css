@@ -950,10 +950,20 @@ img.alignright {
 #section-video .video-banner img.img-video-icon {
     position: absolute;
     top: 50%;
-    margin-top: -80px;
-    width: 160px;
-    height: 160px;
-	cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 50%;
+    width: auto;
+    max-width: 160px;
+    max-height: 160px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 #section-pricing .content-wrap {
     padding: 6.25vw 0;
