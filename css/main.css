@@ -909,6 +909,9 @@ img.alignright {
 	max-width: 560px;
     padding: 15px 0;
 }
+#section-blog .img-blog {
+    width: 100%;
+}
 #section-blog .content-wrap {
     padding: 6.25vw 0;
 }
@@ -1398,10 +1401,16 @@ img.alignright {
 		font-size: 160px;
 	    letter-spacing: 1px;
 	}
+    #footer .widgets-part,
     #footer .content-part .copy,
     #footer .widgets-footer-four {
         text-align: center;
     }
+    #footer .widgets-footer-two > div {
+        display: block;
+        margin-right: 0;
+    }
+    
 }
 @media (max-width: 667px) {
 	
