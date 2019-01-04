@@ -1,0 +1,75 @@
+.map-img-wrapper img {
+	width: 100%;
+	height: auto;
+}
+.btn-success {
+	color: #fff !important;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+}
+.btn-danger {
+    color: #fff !important;
+    background-color: #d9534f !important;
+    border-color: #d43f3a !important;
+}
+.btn-half-block {
+	width: 50%;
+	border-right-style: none;
+	-webkit-border-radius: 0 !important;
+	-moz-border-radius: 0 !important;
+	-ms-border-radius: 0 !important;
+	-o-border-radius: 0 !important;
+	border-radius: 0 !important;
+}
+#wpadminbar #wp-admin-bar-theme-option>.ab-item:before {
+    content: "\f540";
+    top: 2px;
+}
+.half-grid {
+    width: 48%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0 2%;
+}
+.redux-main .redux-slides-accordion-group input.full-text, .redux-main .redux-slides-accordion-group textarea.large-text {
+    width: 100%;
+}
+.redux-main .redux-slides-accordion-group input[type=text], 
+.redux-main .redux-slides-accordion-group input[type=url], 
+.redux-main .redux-slides-accordion-group input[type=email], 
+.redux-main .redux-slides-accordion-group input[type=tel], 
+.redux-main .redux-slides-accordion-group select, .redux-main .redux-slides-accordion-group textarea {
+    background-color: #f1f1f1;
+    border: 1px solid;
+    border-color: #ccc #e6e6e6 #e6e6e6 #ccc;
+    padding: 4px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-bottom: 7px;
+}
+.redux-main .redux-option-photo {
+    max-height: 340px;
+    max-width: 340px;
+    padding: 5px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-right: 15px;
+    border: 1px solid #e3e3e3;
+    background: #f7f7f7;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+.redux-main .button.remove-photo {
+    margin-left: 10px;
+    color: #ef521d;    
+}
+.cmb2-wrap ul:before {
+    content: ' ';
+    display: table;
+    clear: both;
+    width: 100%;
+}
