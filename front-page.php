@@ -1,4 +1,3 @@
-<?php /*Template Name: Home Page Template*/?>
 <?php 
 global $mosrokomari_options;
 $sections = $mosrokomari_options['home-layout-settings']['Enabled'];
