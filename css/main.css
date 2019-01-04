@@ -1317,6 +1317,9 @@ img.alignright {
 }
 
 @media (max-width: 991px) {
+    body {
+        padding-bottom: 50px;
+    }
     .scrollup {
         right: 10px;
         bottom: 60px;
@@ -1395,6 +1398,10 @@ img.alignright {
 		font-size: 160px;
 	    letter-spacing: 1px;
 	}
+    #footer .content-part .copy,
+    #footer .widgets-footer-four {
+        text-align: center;
+    }
 }
 @media (max-width: 667px) {
 	
